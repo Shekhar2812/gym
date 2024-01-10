@@ -1,0 +1,123 @@
+.pricing{
+    display: grid;
+    /* background-color: black; */
+    padding: 8rem;
+    gap:3rem;
+    animation-delay: 1s;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+.pricing .information{
+    padding: 1rem;
+ 
+}
+
+.pricing .information h3{
+    font-size: 1.2rem;
+    color: red;
+}
+.pricing .information h2{
+    margin-top: 2rem;
+
+    font-size: 2rem;
+}
+.pricing .information .para{
+margin-top: 2rem;
+font-size: 1.2rem;
+
+}
+.pricing .information p{ 
+margin-top: 1rem;
+font-size: 1.2rem;
+}
+.pricing .information .btn{ 
+       border: 1px solid deeppink;
+}
+
+
+.plan-basic{
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid rgb(226, 22, 22);
+    
+}
+.plan-basic h3{
+    /* color: red; */
+    /* margin-top: 3rem; */
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.plan-basic .price{
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+.plan-basic .list p{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.plan-basic button{
+    color: black;
+    width: 40%;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 3px solid red;
+    padding: .7rem;
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.plan-basic button:hover{
+background-color: red;
+color: white;
+}
+
+.plan{
+text-align: center;
+    padding: 1rem;
+    /* border: 1px solid black; */
+    border: 1px solid rgb(226, 22, 22);
+}
+.plan h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.plan .price{
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+.plan .list p{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.plan button{
+    color: black;
+    width: 40%;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 3px solid red;
+    padding: .7rem;
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.plan button:hover{
+    background-color: red;
+    color: white;
+    }
+    .fadeDown{
+        animation-name: fadeDown;
+    }
+    @keyframes fadeDown {
+        from { 
+opacity: 0;
+transform: translate3d(0, -100%, 0 );
+        }
+        to { 
+        opacity: 1;
+        transform: none;
+        }
+
+
+    }

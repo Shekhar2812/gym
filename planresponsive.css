@@ -1,0 +1,21 @@
+@media (max-width:700px){ 
+    .pricing {
+        padding: 0rem;
+    } 
+
+    .pricing .information{
+        padding: 1rem;
+      
+    }
+    .plan-basic{
+        border: 0px solid rgb(226, 22, 22);    
+    
+    }
+    .plan{
+      
+            border: 0px solid rgb(226, 22, 22);
+        }
+
+
+
+}

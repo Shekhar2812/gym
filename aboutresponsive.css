@@ -1,0 +1,234 @@
+@media (max-width:700px){ 
+    .about-section{
+        background-color: rgb(44, 42, 42);
+        padding: 0;
+        /* color: white; */
+        /* background-color: black; */
+        
+        width: 100%;
+        margin-top: -2rem;
+    }
+    .about-section .about-inner{
+        display: grid;  
+        padding: 1rem;
+        margin-top: 6rem;
+    }
+    .about-section .about-inner .about-title{
+        /* border: 1px solid black; */
+        padding: 0rem;
+    }
+    .about-section .about-inner .about-title h2{
+        /* border: 1px solid black; */
+        /* padding: 1rem; */
+      text-align: center;
+    }
+    .about-section .about-inner  .about-title_second{
+text-align: center;
+padding: 0rem;
+    }
+  
+
+    .about-section .about-inner .about-p{
+        /* border: 1px solid black; */
+        padding:1rem;
+        width: 100%;
+        /* text-align: center; */
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+    .about-box{
+        padding: 1rem;
+        display: grid;
+        gap: 5rem;
+      
+        grid-template-columns: repeat(auto-fit, minmax(24rem, 1rem));
+    }
+    .about-box .about-message{
+        /* border: 1px solid red; */
+        padding: 1rem;
+       
+       /* text-align: center; */
+        margin-top: 0rem;
+        }
+        .about-box .about-message .inner-message{
+           
+            margin-left: 0rem;
+           
+        }
+ 
+          .underline1{
+            width: 9rem;
+            height: .1rem;
+          background-color: red;
+          margin-left: auto; 
+          margin-right: auto;
+          margin-top: 10px;
+          }
+
+          .media{
+            /* background: url("Trainer/bg4.jpg"); */
+            padding: 0rem;
+            max-width: 100%;
+            height: auto;
+         
+          }
+       
+          .media-box .media-p{
+            padding: 0rem;
+            font-size: 1.1rem;
+            }
+            .media-box{
+                /* padding: -991rem; */
+                /* border: 1px solid black; */
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(9rem, 1rem));
+                gap: 1rem;
+                /* justify-content: center; */
+               
+                /* text-align: center; */
+            
+            }
+            .media .media-inner h2{
+              margin-top: 5rem;
+                text-align: center;
+                }
+            .media .media-inner .media-2ndname h1{
+                text-align: center;
+                /* font-size: 3rem; */
+                /* padding: 1rem; */
+                margin-top: 1rem;
+            }
+            .media .media-inner{
+                padding: 0rem;
+                /* border: 1px solid black; */
+            }
+
+
+
+            .fqa-box{
+             min-height: 80vh;
+                width: 90%;
+            }
+
+            .fqa-title {
+                font-size: 3rem;
+        
+               
+            }
+            .answer p{
+                padding-top: 2rem;
+               
+                font-size: 1.1rem;
+                }
+                .footer{
+                    /* margin-top: -15rem; */
+                }
+
+
+
+
+
+
+
+
+
+                .box .inner-box{
+                    display: grid;
+                    gap: 1.2rem;
+                    padding: -0rem;
+                    grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
+                    /* border: 1px solid rgb(221, 31, 31); */
+                }
+                .box .inner-box .second-box{
+                    padding: 1rem;
+                    gap: 1rem;
+                    margin-top: 5rem;
+                    text-align: center;
+                    /* margin-top: 2.4rem; */
+                    grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+                    display: grid;
+                    /* border: 1px solid black; */
+                
+                }
+                .box .inner-box .box-text{
+                    margin: -1rem;
+                    
+                   /* border: 1px solid black; */
+                    text-align: center;
+                }
+           
+                .box .inner-box .box-text p{
+                    padding: 1rem;
+                 
+                    /* margin-top: 0rem; */
+                    font-size: 1.1rem;
+                        /* border: 1px solid black; */
+                    }
+          
+            
+                    .box .inner-box .box-text a{
+                        /* border: 1px solid black; */
+                    padding: 1rem;
+                   
+                    color: white;
+                    font-size: 1.7rem;
+                   
+                    }
+            
+                    .box .inner-box .second-box .r-title{
+                        font-size: 1.4rem;
+                 font-weight: 100;
+              margin-top: 4rem;
+        
+                     }
+                     .box .inner-box .second-box h1{
+                        font-size: 2.1rem;
+                        text-transform: uppercase;
+                    }
+                    .bmi{
+                        /* border: 1px solid red; */
+                         padding: 0rem;
+                         /* width: 80%; */
+                         margin-bottom: -4rem;
+                     }
+
+                    .bmi .bmi-box{
+                                            
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(240px , 1fr));
+                        
+                        }
+                        .bmi .bmi-box .bmi-inner{
+                          display: block;
+                          padding: 1rem;
+                          text-align: center;
+                          /* background-image: url('blog.jpg'); */
+                            /* border: 1px solid rgb(161, 66, 66); */
+                        
+
+                        }
+
+                        .bmi .bmi-box .second-bmi{
+    
+                            background-color: rgb(0, 0, 0);
+                            width: 100%;
+                        }
+                        .bmi .bmi-box .bmi-inner h4{
+                            font-size: 2.4rem;
+                            margin-top: 1rem;
+                        }
+                        .bmi .bmi-box .bmi-inner p{ 
+                            margin-top:2rem;
+                            padding: 1rem;
+                        }
+     
+     
+                        .bmi .bmi-box .bmi-inner h1{
+                            margin-top: 1rem;
+                           
+                            font-size: 1.5rem;
+                        }
+     
+     
+     
+                    }
